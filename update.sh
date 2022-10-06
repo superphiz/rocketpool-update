@@ -2,6 +2,7 @@
 # an interactive script to check the current rocketpool smartnode client version and update if necessary. This is intended to be run by a user and monitored for success
 # i.e. don't run this as a cron job :)
 # superphiz 2022-10-06 with some hints from faisalm.eth and 0xPatches
+# https://discord.com/channels/405159462932971535/468923220607762485/1018285352756187136
 
 AVAILABLE=$(curl --silent "https://api.github.com/repos/rocket-pool/smartnode-install/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/' | sed -E 's/v//')
 
