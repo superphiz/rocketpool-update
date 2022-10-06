@@ -26,8 +26,6 @@ else
 
 	rocketpool service install -d -y
 
-	sed -e "s/--sync-mode=X_CHECKPOINT//g" -i ~/.rocketpool/scripts/start-ec.sh
-
 	rocketpool service start -y
 
 	rocketpool service version
