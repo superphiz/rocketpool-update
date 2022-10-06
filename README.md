@@ -5,8 +5,8 @@ a simple updater for rocketpool until joe integrates it natively. This tool will
 
 # How to:
 
--1. Don't run this on a raspberry pi.
-0. Read the code, attempt to understand it, convince yourself that it's not doing so something naughty.
-1. On your Rocket Pool node, run `wget https://raw.githubusercontent.com/superphiz/rocketpool-update/master/update.sh`, this will download the script.
-2. Run `chmod +x update.sh`, this will make it executable.
-3. Run `./update.sh`, this will run the script and see if you need to update.
+0. Don't run this on a raspberry pi.
+1. Read the code, attempt to understand it, convince yourself that it's not doing so something naughty.
+2. On your Rocket Pool node, run `wget https://raw.githubusercontent.com/superphiz/rocketpool-update/master/update.sh`, this will download the script.
+3. Run `chmod +x update.sh`, this will make it executable.
+4. Run `./update.sh`, this will run the script and see if you need to update.
