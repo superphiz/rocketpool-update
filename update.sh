@@ -33,3 +33,5 @@ else
 	rocketpool service version
 
 fi
+
+echo "I won't do it for you, but please run \`rocketpool service logs\` and watch it for a few minutes to make sure everything is working."
